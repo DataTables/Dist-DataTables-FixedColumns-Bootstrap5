@@ -1,0 +1,15 @@
+{
+    "js": [
+        "js/fixedColumns.bootstrap5.js",
+        "js/fixedColumns.bootstrap5.min.js"
+    ],
+    "css": [
+        "css/fixedColumns.bootstrap5.css",
+        "css/fixedColumns.bootstrap5.min.css"
+    ],
+    "types": [
+        "types/fixedColumns.bootstrap5.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/FixedColumns",
+    "last-tag": "3.3.2"
+}

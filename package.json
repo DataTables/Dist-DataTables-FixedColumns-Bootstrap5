@@ -12,7 +12,7 @@
     "keywords": [
         "FixedColumns",
         "Bootstrap",
-        "Bootstrap5",
+ "Bootstrap5",
         "Datatables",
         "jQuery",
         "table",
@@ -20,8 +20,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": ">=3.3.2",
-        "datatables.net-bs5": ">=1.10.24",
+        "datatables.net-fixedcolumns": ">=3.3.3",
+        "datatables.net-bs5": ">=1.10.26-dev",
         "jquery": ">=1.7"
     },
     "moduleType": [

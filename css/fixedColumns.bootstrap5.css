@@ -68,6 +68,7 @@ table.dataTable th {
 }
 
 div.dataTables_scrollBody thead tr,
-div.DTFC_LeftBodyLiner thead tr {
+div.DTFC_LeftBodyLiner thead tr,
+div.DTFC_RightBodyLiner thead tr {
   height: 0px !important;
 }

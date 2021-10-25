@@ -4,7 +4,7 @@
     "main": "js/fixedColumns.bootstrap5.js",
     "style": "css/fixedColumns.bootstrap5.css",
     "types": "./types/fixedColumns.bootstrap5.d.ts",
-    "version": "4.0.0",
+    "version": "4.0.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -13,7 +13,7 @@
     "keywords": [
         "FixedColumns",
         "Bootstrap",
- "Bootstrap5",
+        "Bootstrap5",
         "Datatables",
         "jQuery",
         "table",

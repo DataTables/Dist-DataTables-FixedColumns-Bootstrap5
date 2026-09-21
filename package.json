@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-fixedcolumns-bs5",
     "description": "FixedColumns for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
-    "main": "js/fixedColumns.bootstrap5.js",
-    "module": "js/fixedColumns.bootstrap5.mjs",
-    "style": "css/fixedColumns.bootstrap5.css",
+    "main": "./js/fixedColumns.bootstrap5.js",
+    "module": "./js/fixedColumns.bootstrap5.mjs",
+    "style": "./css/fixedColumns.bootstrap5.css",
     "types": "./types/fixedColumns.bootstrap5.d.ts",
     "version": "6.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "FixedColumns",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/FixedColumns.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/fixedColumns.bootstrap5.d.ts",
+            "import": "./js/fixedColumns.bootstrap5.mjs",
+            "default": "./js/fixedColumns.bootstrap5.mjs",
+            "require": "./js/fixedColumns.bootstrap5.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/fixedColumns.bootstrap5.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }

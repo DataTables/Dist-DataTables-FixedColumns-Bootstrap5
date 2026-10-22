@@ -108,6 +108,16 @@ table.dataTable tbody tr > .dtfc-fixed-start,
 table.dataTable tbody tr > .dtfc-fixed-end {
   background-color: var(--bs-table-bg);
 }
+table.dataTable.table-bordered > :not(caption) > * > * {
+  border-bottom-width: var(--bs-border-width);
+}
+table.dataTable.table-bordered > thead > * > * {
+  border-top-width: var(--bs-border-width) !important;
+}
+table.dataTable.table-bordered th:last-child,
+table.dataTable.table-bordered td:last-child {
+  border-right-color: var(--bs-table-border-color);
+}
 
 div.dtfc-top-blocker,
 div.dtfc-bottom-blocker {
@@ -117,8 +127,11 @@ div.dtfc-bottom-blocker {
 div.dt-scroll-body {
   border-left-color: var(--bs-table-color) !important;
 }
+div.dt-scroll-body thead tr th {
+  border-top-color: var(--bs-table-border-color);
+}
 
 div.dt-scroll-headInner table.table-bordered tr th:first-child,
 div.dt-scroll-footInner table.table-bordered tr th:first-child {
-  border-left-color: var(--bs-border-color) !important;
+  border-left-color: var(--bs-table-border-color) !important;
 }
